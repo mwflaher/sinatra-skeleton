@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Skeleton
+
+    == stylesheet_tag '_responsive'
+    
+  body
+    == slim :'_shared/header', layout: false
+    .container
+      == yield
+      
+    == javascript_tag '_responsive'

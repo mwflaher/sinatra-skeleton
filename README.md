@@ -1,4 +1,4 @@
-sample-async-api
+sinatra-skeleton
 ================
 
-Using sinatra to make a simple asynchronous API
+Just a skeleton for prototyping lightweight sinatra projects.
